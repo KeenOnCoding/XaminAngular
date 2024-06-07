@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { OurTeamComponent } from './pages/our-team/our-team.component';
+import { OurClientComponent } from './pages/our-client/our-client.component';
+import { CareersComponent } from './pages/careers/careers.component';
 
 const routes: Routes = [
   { path: 'landing-page1', loadChildren: () => import('./landing-page1/landing-page1.module').then(m => m.LandingPage1Module) },
@@ -18,6 +22,10 @@ const routes: Routes = [
   { path: 'blog', loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule) },
   { path: 'services', loadChildren: () => import('./service/service.module').then(m => m.ServiceModule) },
   { path: 'pages', loadChildren: () => import('./pages/pages.module').then(m => m.PagesModule) },
+  { path: 'contact-us', component: ContactUsComponent },
+  { path: 'our-team', component: OurTeamComponent },
+  { path: 'client', component: OurClientComponent },
+  { path: 'career', component: CareersComponent },
 ];
 
 @NgModule({

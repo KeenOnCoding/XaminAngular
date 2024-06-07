@@ -15,19 +15,19 @@ export class OurServicesComponent implements OnInit {
   // tslint:disable-next-line:max-line-length
   Lists: any[] = [
     {
-      title: 'Data Analytics',
+      title: 'DevOps',
       img: '01.png',
       desc: 'It is a long established fact that a reader will be distracted by the of readable content .',
       chkList: ['Advance Advisory Team', 'Professional Consulting Services', '24/7 Support Help Center']
     },
     {
-      title: 'Managed Analytics',
+      title: 'Cloud Migration',
       img: '01.png',
       desc: 'It is a long established fact that a reader will be distracted by the of readable content .',
       chkList: ['Advance Advisory Team', 'Professional Consulting Services', '24/7 Support Help Center']
     },
     {
-      title: 'Managed Analytics',
+      title: 'Well Architected',
       img: '01.png',
       desc: 'It is a long established fact that a reader will be distracted by the of readable content .',
       chkList: ['Advance Advisory Team', 'Professional Consulting Services', '24/7 Support Help Center']

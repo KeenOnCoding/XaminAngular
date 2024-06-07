@@ -5,16 +5,16 @@ const topMenuBarItems = [
     title: 'Services ',
     submenu : [
       {
-        href: '/services/data-analytics',
-        title: 'Data Analytics'
+        href: '/services/devops',
+        title: 'DevOps'
       },
       {
-        href: '/services/managed-analytics',
-        title: 'Managed Analytics'
+        href: '/services/cloud-migration',
+        title: 'Cloud Migration'
       },
       {
-        href: '/services/big-data-services',
-        title: 'Big Data Services'
+        href: '/services/well-architected',
+        title: 'Well Architected'
       },
       {
         href: '/services/data-science-consulting',
@@ -78,15 +78,15 @@ const topMenuBarItems = [
     ]
   },
   {
-    href: '/pages/our-team',
+    href: '/our-team',
     title: 'Team'
   },
   {
-    href: '/pages/client',
+    href: '/client',
     title: 'Clients'
   },
   {
-    href: '/pages/career',
+    href: '/career',
     title: 'Careers',
   }
   //{
@@ -267,16 +267,16 @@ const topMenuBarItems = [
 
 const servicesMenu =  [
   {
-    href: '/services/data-analytics',
-    title: 'Data Analytics'
+    href: '/services/devops',
+    title: 'DevOps'
   },
   {
-    href: '/services/managed-analytics',
-    title: 'Managed Analytics'
+    href: '/services/cloud-migration',
+    title: 'Cloud Migration'
   },
   {
-    href: '/services/big-data-services',
-    title: 'Big Data Services'
+    href: '/services/well-architected',
+    title: 'Well Architected'
   },
   {
     href: '/services/data-science-consulting',

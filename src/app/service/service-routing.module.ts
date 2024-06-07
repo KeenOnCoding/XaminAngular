@@ -19,15 +19,15 @@ const routes: Routes = [
     component: IndexComponent,
   },
   {
-    path: 'data-analytics',
+    path: 'devops',
     component: DataAnalyticsComponent
   },
   {
-    path: 'managed-analytics',
+    path: 'cloud-migration',
     component: ManagedAnalyticsComponent
   },
   {
-    path: 'big-data-services',
+    path: 'well-architected',
     component: BigDataServicesComponent
   },
   {
