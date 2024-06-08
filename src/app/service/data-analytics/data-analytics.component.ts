@@ -16,7 +16,7 @@ export class DataAnalyticsComponent implements OnInit {
   public navItems: any = topMenuBarItems;
 
   data : any = {
-    title:"Data Analytics",
+    title:"DevOps",
     img:"05.png"
   };
 
@@ -34,9 +34,30 @@ export class DataAnalyticsComponent implements OnInit {
 
   className= " ";
 
-  checkList1: any[] = ['Advance Advisory Team', 'Professional Consulting Services', '24/7 Support Help Center', 'Customer Service & Operations'];
-  checkList2: any[] = ['Advance Advisory Team', 'Professional Consulting Services', '24/7 Support Help Center', 'Customer Service & Operations'];
-  checkList3: any[] = ['Advance Advisory Team', 'Professional Consulting Services', '24/7 Support Help Center', 'Customer Service & Operations'];
+  checkList1: any[] = [
+    'CI/CD',
+    'Kubernetes',
+    'Security',
+    'Application scaling',
+    'Application & infrastructure modernization',
+    'Logging and monitoring',
+  ];
+  checkList2: any[] = [
+    'Acceleration',
+    'Efficiency',
+    'Security',
+    'Reliability',
+    'Performance',
+    'Cost Reduction',
+  ];
+  checkList3: any[] = ['AWS', 'Azure', 'Gogle Cloud Platform'];
+  iac: any[] = ['Terraform',
+    'Terragrunt',
+    'AWS Cloud Formatio',
+    "GCP Deployment Manager",
+    "Pulumi",
+    "AWS CDK"
+];
   
   constructor(private plugins: PluginsService) { }
 
