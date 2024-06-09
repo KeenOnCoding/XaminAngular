@@ -1,72 +1,100 @@
 <!-- Header component start-->
 <app-header [logoImg]="logoImage" [navItemList]="navItems" [contactInfo]="contactInfo"></app-header>
 <!-- Header component end-->
-<app-top-banner [data]="data"></app-top-banner>
+<!--<app-top-banner [data]="data"></app-top-banner>-->
 <div class="main-content">
     <!--Data Analytics Section-->
     <section>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-12 sidebar-service-left">
-                    <app-service-menu [activeMenu]="activeMenu"></app-service-menu>
-                    <app-blog-slider [className]="className"></app-blog-slider>
-                    <!--<div class="widget get-file">
-                        <h2 class="widget-title">Downloads</h2>
-                        <a href="#">
-                            <ul class="list-inline download-item">
-                                <li class="list-inline-item"> <i class="fa fa-file-pdf-o"></i><span class="ml-3">PDF download</span> </li>
-                            </ul>
-                        </a>
-                    </div>-->
-                    <!--<div class="widget get-file mb-5">
-                        <a href="#">
-                            <ul class="list-inline download-item">
-                                <li class="list-inline-item"><i class="fa fa-file-pdf-o"></i><span class="ml-3">Company White Paper</span></li>
-                            </ul>
-                        </a>
-                    </div>-->
-                </div>
-                <div class="col-lg-8 col-sm-12 pt-5 pt-lg-0">
-                    <div class="row iq-pb-45">
-                        <div class="col-sm-12">
-                            <div class="row ">
-                                <div class="col-sm-12">
-                                    <div class="owl-carousel" data-dots="true" data-nav="false" data-items="1" data-items-laptop="1" data-items-tab="1" data-items-mobile="1" data-items-mobile-sm="1" data-autoplay="true" data-loop="true" data-margin="30">
-                                        <div *ngFor="let list of images" class="consulting-img  text-left"> <img src="{{ list.image }}" alt="slider"> </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-0">
-                              <p>We provide a comprehensive suite of DevOps services from start to finish, enabling you to improve efficiency, automate workflows, eliminate human errors during development and operations processes, and accelerate your time-to-market.</p>
-                              <p>Our top Cloud experts will create well-designed CI/CD pipelines for your business using the best DevOps solutions, including Kubernetes, Jenkins, Terraform, Docker, and more.</p>
+          <div class="row">
+            <!--<div class="col-lg-12 col-sm-12 sidebar-service-left">
+      <app-service-menu [activeMenu]="activeMenu"></app-service-menu>
+      <app-blog-slider [className]="className"></app-blog-slider>
+      <div class="widget get-file">
+          <h2 class="widget-title">Downloads</h2>
+          <a href="#">
+              <ul class="list-inline download-item">
+                  <li class="list-inline-item"> <i class="fa fa-file-pdf-o"></i><span class="ml-3">PDF download</span> </li>
+              </ul>
+          </a>
+      </div>
+      <div class="widget get-file mb-5">
+          <a href="#">
+              <ul class="list-inline download-item">
+                  <li class="list-inline-item"><i class="fa fa-file-pdf-o"></i><span class="ml-3">Company White Paper</span></li>
+              </ul>
+          </a>
+      </div>
+  </div>-->
 
-                            </div>
+            <div class="col-lg-12 col-sm-12 pt-5 pt-lg-0">
+              <div class="row iq-pb-45">
+                <div class="col-sm-12">
+                  <div class="row ">
+                    <div class="col-sm-12">
+                      <div class="owl-carousel"
+                           data-dots="true"
+                           data-nav="false"
+                           data-items="1"
+                           data-items-laptop="1"
+                           data-items-tab="1"
+                           data-items-mobile="1"
+                           data-items-mobile-sm="1"
+                           data-autoplay="true"
+                           data-loop="true"
+                           data-margin="30">
+                        <div *ngFor="let list of images"
+                             class="consulting-img  text-left">
+                          <img src="{{ list.image }}" alt="slider">
                         </div>
-                    </div>
-                    <div class="row iq-pb-45">
-                        <!--<div class="col-sm-12 col-md-6">
-                            <h4 class="mb-4">Advanced Analytics Strategies</h4>
-                            <div class="service-chart">
-                                <canvas id="canvas" class="data-analytics-chart"></canvas>
-                            </div>
-                            <ul id="js-legend" class="chart-legend"></ul>
-                        </div>-->
-                        <div class="col-sm-12 col-md-6 mt-5 mt-lg-0 mt-md-0 ">
-                          <h4 class="mb-4">DevOps DNA</h4>
-                            <div class="text-left  ">
-                            <app-check-list [lists]="checkList1"></app-check-list>
-                            </div>
-                        </div>
-                    </div>
-                  <p></p>
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h3 class="mb-3">DevOps Advantages</h3>
-                        <p>DevOps is the most cost-efficient way to accelerate high-quality product delivery, improve collaboration between development and operations teams, and gain a competitive edge.</p>
                       </div>
                     </div>
+                  </div>
+
                 </div>
+              </div>
+
             </div>
+            <div class="col-lg-12 col-sm-12 pt-5 pt-lg-0">
+              <div class="row iq-pb-45">
+                <div class="col-sm-12">
+                  <!--<div class="row ">
+                    <div class="col-sm-12">
+                      <div class="owl-carousel" data-dots="true" data-nav="false" data-items="1" data-items-laptop="1" data-items-tab="1" data-items-mobile="1" data-items-mobile-sm="1" data-autoplay="true" data-loop="true" data-margin="30">
+                        <div *ngFor="let list of images" class="consulting-img  text-left"> <img src="{{ list.image }}" alt="slider"> </div>
+                      </div>
+                    </div>
+                  </div>-->
+                  <div class="mb-0">
+                    <p>We provide a comprehensive suite of DevOps services from start to finish, enabling you to improve efficiency, automate workflows, eliminate human errors during development and operations processes, and accelerate your time-to-market.</p>
+                    <p>Our top Cloud experts will create well-designed CI/CD pipelines for your business using the best DevOps solutions, including Kubernetes, Jenkins, Terraform, Docker, and more.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row iq-pb-45">
+                <!--<div class="col-sm-12 col-md-6">
+          <h4 class="mb-4">Advanced Analytics Strategies</h4>
+          <div class="service-chart">
+              <canvas id="canvas" class="data-analytics-chart"></canvas>
+          </div>
+          <ul id="js-legend" class="chart-legend"></ul>
+      </div>-->
+                <div class="col-sm-12 col-md-6 mt-5 mt-lg-0 mt-md-0 ">
+                  <h4 class="mb-4">DevOps DNA</h4>
+                  <div class="text-left  ">
+                    <app-check-list [lists]="checkList1"></app-check-list>
+                  </div>
+                </div>
+              </div>
+              <p></p>
+              <div class="row">
+                <div class="col-sm-12">
+                  <h3 class="mb-3">DevOps Advantages</h3>
+                  <p>DevOps is the most cost-efficient way to accelerate high-quality product delivery, improve collaboration between development and operations teams, and gain a competitive edge.</p>
+                </div>
+              </div>
+            </div>
+          </div>
             <div class="row">
               <h3 class="mb-3">Tech Stack we use</h3>
               <p>We provide DevOps services and solutions to automate workflows with custom tools targeted to your business needs, to have reliable DevOps partner at your side to enhance your SDLC.</p>

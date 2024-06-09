@@ -23,13 +23,9 @@ export class DataAnalyticsComponent implements OnInit {
   public activeMenu = '/services/data-analytics';
 
   images: any[] = [
-    { image: "./assets/images/about-us/04.png" },
-    { image: "./assets/images/about-us/03.png" },
-    { image: "./assets/images/about-us/04.png" },
-    { image: "./assets/images/about-us/03.png" },
-    { image: "./assets/images/about-us/04.png" },
-    { image: "./assets/images/about-us/03.png" },
-    { image: "./assets/images/about-us/04.png" }
+/*    { image: "./assets/images/about-us/03.png" },*/
+    { image: "./assets/images/about-us/devops-1.png" }
+
   ];
 
   className= " ";
