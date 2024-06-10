@@ -8,8 +8,8 @@ export class SectionFourServicesComponent implements OnInit {
 
   titleSectionProp: any = {
     class: 'text-center',
-    title: 'Our Services',
-    subTitle: 'We Provide Useful Services',
+    //title: 'Our Services',
+    subTitle: 'What We Do',
   };
 
   constructor() { }
