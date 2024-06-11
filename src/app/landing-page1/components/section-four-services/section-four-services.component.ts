@@ -12,6 +12,32 @@ export class SectionFourServicesComponent implements OnInit {
     subTitle: 'What We Do',
   };
 
+  List: any[] = [
+    {
+      title: 'Google Analytics',
+      desc: 'There are many variations of passages of Lorem Ipsum available, in',
+      image: './assets/images/fancybox/11-1.png',
+      bg_img: './assets/images/bg/11-bg.png',
+    },
+    {
+      title: 'Marketing Tracking',
+      desc: 'There are many variations of passages of Lorem Ipsum available, in',
+      image: './assets/images/fancybox/11-2.png',
+      bg_img: './assets/images/bg/11-bg.png',
+    },
+    {
+      title: 'Services and Solutions',
+      desc: 'There are many variations of passages of Lorem Ipsum available, in',
+      image: './assets/images/fancybox/11-3.png',
+      bg_img: './assets/images/bg/11-bg.png',
+    },
+    {
+      title: 'Conversion Optimization',
+      desc: 'There are many variations of passages of Lorem Ipsum available, in',
+      image: './assets/images/fancybox/11-4.png',
+      bg_img: './assets/images/bg/11-bg.png',
+    }
+  ];
   constructor() { }
 
   ngOnInit() {

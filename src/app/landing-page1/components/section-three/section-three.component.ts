@@ -8,8 +8,8 @@ export class SectionThreeComponent implements OnInit {
 
   titleSectionProp: any = {
     class: 'text-center',
-    title: 'How it’s work',
-    subTitle: 'How Does Xamin Works'
+    //title: 'How it’s work',
+    subTitle: 'How It Works'
   };
 
   circle1Data: any = {
