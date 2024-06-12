@@ -9,13 +9,13 @@ export class SectionThreeComponent implements OnInit {
   titleSectionProp: any = {
     class: 'text-center',
     //title: 'How it’s work',
-    subTitle: 'How It Works'
+    subTitle: 'Our Expertise'
   };
 
   circle1Data: any = {
     img: '01.png',
-    title: 'Data for all your people',
-    description: 'It is a long established fact that a reader will be distracted by the of readable.',
+    title: 'CI\\CD',
+    description: 'Reduce your time to market by ensuring predictable software deployment every time',
     delay: '0.6s',
     positionClass: 'right',
     type:'consult-services'
@@ -25,8 +25,8 @@ export class SectionThreeComponent implements OnInit {
   circle2Data: any = {
     class: 'mt-4 mt-md-0',
     img: '02.png',
-    title: 'A new breed of AI',
-    description: 'It is a long established fact that a reader will be distracted by the of readable.',
+    title: 'AI/ML',
+    description: 'ML cloud journey from the beginning to advanced pipelines',
     delay: '1s',
     positionClass: 'right',
     type:'consult-services'
@@ -36,10 +36,41 @@ export class SectionThreeComponent implements OnInit {
   circle3Data: any = {
     class: 'mt-4 mt-md-0',
     img: '03.png',
-    title: 'Analytics business',
-    description: 'It is a long established fact that a reader will be distracted by the of readable.',
+    title: 'GenAI',
+    description: 'Accelerate the power of LLMs, implement guardrails & evaluate models for your RAG to leverage business insights',
     delay: '1.4s',
     type:'consult-services'
+
+  };
+
+  circle4Data: any = {
+    class: 'mt-4 mt-md-0',
+    img: '01.png',
+    title: 'Security',
+    description: 'Safeguard your business by implementing best practices',
+    delay: '1s',
+    positionClass: 'right',
+    type: 'consult-services'
+
+  };
+
+  circle5Data: any = {
+    class: 'mt-4 mt-md-0',
+    img: '02.png',
+    title: 'Application Lifecycle Management',
+    description: 'Run on an optimized Kubernetes workload',
+    delay: '1.4s',
+    type: 'consult-services'
+
+  };
+
+  circle6Data: any = {
+    class: 'mt-4 mt-md-0',
+    img: '03.png',
+    title: 'Site Reliability Engineering',
+    description: 'Accelerate the power of LLMs, implement guardrails & evaluate models for your RAG to leverage business insights',
+    delay: '1.4s',
+    type: 'consult-services'
 
   };
 
