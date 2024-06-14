@@ -8,56 +8,66 @@ export class OurServicesComponent implements OnInit {
 
   titleSectionProp: any = {
     class: 'text-center',
-    title: 'Our Services',
-    subTitle: 'Explore Our Data Services'
+    //title: 'PROCESS',
+    subTitle: 'Migration Steps'
   };
 
-  navList: any[] = [
+  List: any[] = [
     {
-      id: 'tab-big-data',
-      title: 'Big Data',
-      img: '03.png',
-      link: '/services',
-      active: true,
-      subtitle: 'Choose Your Software Development Service by Category',
-      desc: 'Tame your big data through robust solutions that empower data collection, storage, processing and analysis.',
-      chkList1: ['Advance Advisory Team', 'Simply dummy text of the'],
-      chkList2: ['Professional Consulting Services', 'It is a long established fact.'],
-      chkList3: ['24/7 Support Help Center', 'will be distracted by the of readable']
+      align: 'timeline-article content-right-container',
+      title: 'Assessment and planning',
+      contact: [
+       'Learn a group of 5 people',
+        'Passages of Lorem Ipsum available.',
+        'Easy to Customize List passages of available.'
+      ]
     },
     {
-      id: 'tab-machine-learning',
-      title: 'Machine Learning',
-      img: '02.png',
-      link: '/services',
-      subtitle: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis',
-      subtitle2: 'Dignissimos ducimus qui blanditiis',
-      desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.',
-      chkList: ['Advance Advisory Team', 'Simply dummy text of the', 'Simply dummy text of the', 'Advance Advisory Team'],
+      align: 'content-left-container',
+      title: 'Preparation',
+      contact: [
+        'Learn a group of 5 people',
+        'Passages of Lorem Ipsum available.',
+        'Easy to Customize List passages of available.'
+      ]
     },
     {
-      id: 'tab-analytical-ai',
-      title: 'Analytical AI',
-      img: '01.png',
-      link: '/services',
-      subtitle: 'Choose Your Software Development Service by Category',
-      desc: 'Tame your big data through robust solutions that empower data collection, storage, processing and analysis.',
-      chkList1: ['Advance Advisory Team', 'Simply dummy text of the'],
-      chkList2: ['Professional Consulting Services', 'It is a long established fact.'],
-      chkList3: ['24/7 Support Help Center', 'will be distracted by the of readable']
+      align: 'content-right-container',
+      title: 'Migration',
+      contact: [
+        'Learn a group of 5 people',
+        'Passages of Lorem Ipsum available.',
+        'Easy to Customize List passages of available.'
+      ]
     },
     {
-      id: 'tab-computer-vision',
-      title: 'Computer Vision',
-      img: '04.png',
-      link: '/services',
-      subtitle: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis',
-      subtitle2: 'Dignissimos ducimus qui blanditiis',
-      desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.',
-      chkList: ['Advance Advisory Team', 'Simply dummy text of the', 'Simply dummy text of the', 'Advance Advisory Team'],
-    }
-  ];
-
+      align: 'content-left-container',
+      title: 'Testing and validation',
+      contact: [
+        'Learn a group of 5 people',
+        'Passages of Lorem Ipsum available.',
+        'Easy to Customize List passages of available.'
+      ]
+    },
+    {
+      align: 'timeline-article content-right-container',
+      title: 'Post-migration optimization',
+      contact: [
+        'Learn a group of 5 people',
+        'Passages of Lorem Ipsum available.',
+        'Easy to Customize List passages of available.'
+      ]
+    },
+    {
+      align: 'content-left-container',
+      title: 'Continuous monitoring',
+      contact: [
+        'Learn a group of 5 people',
+        'Passages of Lorem Ipsum available.',
+        'Easy to Customize List passages of available.'
+      ]
+    },
+  ]
   constructor() { }
 
   ngOnInit() {

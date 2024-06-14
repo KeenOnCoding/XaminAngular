@@ -1,1 +1,34 @@
-<app-services [navList]="navList" [titleSectionProp]="titleSectionProp"></app-services>
+<!--<app-services [navList]="navList" [titleSectionProp]="titleSectionProp"></app-services>-->
+
+
+
+<section class="pt-0">
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-12">
+        <app-title-section [titleSectionProp]="titleSectionProp"></app-title-section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="main-timeline-section ">
+          <div class="conference-center-line"></div>
+          <div class="conference-timeline-content">
+            <div *ngFor="let list of List"
+                 class="timeline-article {{ list.align }} wow fadeInUp ">
+              <div class="meta-date"></div>
+              <div class="content-box">
+                <div class="iqtml-top-box">
+                  <h4 class="title primary-color">{{ list.title }}</h4>
+                </div>
+                <ul *ngFor="let text of list.contact" class="iq-contant">
+                  <li>{{ text }}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

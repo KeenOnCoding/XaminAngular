@@ -7,16 +7,16 @@ import { Component, OnInit } from '@angular/core';
 export class AboutUsComponent implements OnInit {
 
   titleSectionProp1: any = {
-    title: 'About US',
-    subTitle: 'Human Behaviour, Data Science',
-    description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted many desktop.',
+    //title: 'About US',
+    subTitle: 'What is Cloud Migration?',
+    description: 'Choosing the right solution for migrating your IT infrastructure to the cloud is crucial for ensuring the efficient performance of your business. Profisea stands out as the ultimate choice for any customer facing this challenge.',
     class: 'text-left'
   };
 
   titleSectionProp2: any = {
-    title: 'About US',
-    subTitle: 'Focused on Actionable Insights',
-    description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted many desktop.',
+    //title: 'About US',
+    subTitle: 'Why Migrate to the Cloud?',
+    description: 'No matter the size of your company, if your business is using on-premises servers, you’ll be in the process of or keen to make the transition to virtual servers in the cloud so you can enjoy on-demand, shared resources to compute, store, and use network services at scale. The cloud is ideal for companies and start-ups racing against the clock to design, build and market new products and services fast and efficiently.',
     class: 'text-left'
   };
 
