@@ -1,4 +1,4 @@
-<section class="xamin-custom-bg iq-pb-70">
+<!--<section class="xamin-custom-bg iq-pb-70">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12">
@@ -24,4 +24,30 @@
             </div>
         </div>
     </div>
+</section>-->
+
+
+<section class="pt-0">
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-12">
+        <app-title-section [titleSectionProp]="titleSectionProp"></app-title-section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-lg-5 col-md-5">
+        <h4>Security scanning is increasing...</h4>
+        <p></p>
+        <app-progress-bar-right-percentage [progressBarDetail]="List1" [progressBar1]="progressBar1"></app-progress-bar-right-percentage>
+      </div>
+      <div class="col-sm-12 col-lg-5 col-md-5 offset-md-2">
+        <h4>..but easy access to data is lagging behind</h4>
+        <p></p>
+        <app-progress-bar-right-percentage
+                                           [progressBarDetail]="List2"
+                                           [progressBar1]="progressBar2"
+                                           ></app-progress-bar-right-percentage>
+      </div>
+    </div>
+  </div>
 </section>

@@ -5,6 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './revolution-slider4.component.html'
 })
 export class RevolutionSlider4Component implements OnInit {
+   
+
 
   constructor() { }
 

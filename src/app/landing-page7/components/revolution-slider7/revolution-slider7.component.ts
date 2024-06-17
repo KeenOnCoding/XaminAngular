@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './revolution-slider7.component.html'
 })
 export class RevolutionSlider7Component implements OnInit {
-
+  imgSrc = './assets/revslider/assets';
   constructor() { }
 
   ngOnInit() {
