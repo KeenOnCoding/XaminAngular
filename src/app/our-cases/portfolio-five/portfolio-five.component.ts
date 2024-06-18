@@ -24,28 +24,28 @@ export class PortfolioFiveComponent implements OnInit {
 
   List: any[] = [
     {
-      class : 'video',
+      class: 'cloud',
       href: '#',
-      img: '08.png',
-      title:'Business Growth',
-      type:'Video'
+      img: 'aws.png',
+      title:'AWS',
+      type:'cloud'
     },
     {
-      class : 'html',
+      class: 'cloud',
       href: '#',
-      img: '02.png',
-      title:'Business Growth',
-      type:'Html'
+      img: 'Microsoft-Azure.png',
+      title:'Azure',
+      type:'cloud'
     },
     {
-      class : 'html',
+      class: 'cloud',
       href: '#',
-      img: '03.png',
-      title:'Business Growth',
-      type:'Html'
+      img: 'GCP.png',
+      title:'GCP',
+      type:'cloud'
     },
     {
-      class : 'design',
+      class: 'design',
       href: '#',
       img: '08.png',
       title:'Business Growth',

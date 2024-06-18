@@ -5,11 +5,11 @@ const topMenuBarItems = [
     title: 'Services ',
     submenu : [
       {
-        href: '/services/devops',
+        href: '/landing-page5',
         title: 'DevOps'
       },
       {
-        href: '/services/cloud-migration',
+        href: '/landing-page4',
         title: 'Cloud Migration'
       },
       {
@@ -17,12 +17,12 @@ const topMenuBarItems = [
         title: 'Well Architected'
       },
       {
-        href: '/services/data-science-consulting',
-        title: 'Data Science Consulting'
+        href: '/landing-page6',
+        title: 'FinOps'
       },
       {
-        href: '/services/business-intelligence',
-        title: 'Business Intelligence'
+        href: '/landing-page7',
+        title: 'DevSecOps'
       },
       {
         href: '/services/data-visualization-services',
@@ -82,12 +82,16 @@ const topMenuBarItems = [
     title: 'Team'
   },
   {
+    href: '/our-cases/portfolio-5-columns',
+    title: 'TechStack'
+  },
+  {
     href: '/client',
     title: 'Clients'
   },
   {
     href: '/career',
-    title: 'Careers',
+    title: 'Career',
   }
   //{
   //  href: '/',

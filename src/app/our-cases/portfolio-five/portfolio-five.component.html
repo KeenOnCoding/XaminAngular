@@ -1,5 +1,5 @@
 <!-- Header component start-->
-<!--<app-header [logoImg]="logoImage" [navItemList]="navItems" [contactInfo]="contactInfo"></app-header>-->
+<app-header [logoImg]="logoImage" [navItemList]="navItems" [contactInfo]="contactInfo"></app-header>
 <!-- Header component end-->
 <!--<app-top-banner [data]="data"></app-top-banner>-->
 <div class="main-content">
@@ -8,7 +8,26 @@
       <div class="row wow fadeInUp">
         <div class="col-sm-12">
           <div class="iq-masonry-block ">
-            <div class="isotope-filters isotope-tooltip"><button data-filter="" class="active">All<span class="post_no">8</span></button><button data-filter=".design">Design<span class="post_no">3</span></button><button data-filter=".html">HTML<span class="post_no">2</span></button><button data-filter=".photography">Photography<span class="post_no">3</span></button><button data-filter=".video">Video<span class="post_no">1</span></button></div>
+            <div class="isotope-filters isotope-tooltip">
+              <button data-filter="" class="active">All<span class="post_no">all</span></button>
+              <button data-filter=".cloud">Cloud<span class="post_no">1</span></button>
+              <button data-filter=".html">Orchestration<span class="post_no">2</span></button>
+              <button data-filter=".photography">Hybrid & multi-cloud environments<span class="post_no">3</span></button>
+              <button data-filter=".video">CI/CD<span class="post_no">4</span></button>
+              <button data-filter=".design">Service mesh<span class="post_no">5</span></button>
+              <button data-filter=".html">GitOps<span class="post_no">6</span></button>
+              <button data-filter=".photography">Monitoring<span class="post_no">7</span></button>
+              <button data-filter=".video">IaC<span class="post_no">1</span></button>
+              <button data-filter=".design">FinOps<span class="post_no">8</span></button>
+              <button data-filter=".html">Security<span class="post_no">9</span></button>
+              <button data-filter=".photography">Kubernetes<span class="post_no">10</span></button>
+              <button data-filter=".video">Сonfiguration management<span class="post_no">1`</span></button>
+              <button data-filter=".design">Code analysis<span class="post_no">12</span></button>
+              <button data-filter=".html">Database<span class="post_no">13</span></button>
+              <button data-filter=".photography">Chaos Engineering<span class="post_no">14</span></button>
+              <button data-filter=".video">Сonfiguration management<span class="post_no">15</span></button>
+            </div>
+
             <div class="iq-masonry iq-columns-5">
               <app-portfolio-box [portfolioList]="List"></app-portfolio-box>
             </div>
