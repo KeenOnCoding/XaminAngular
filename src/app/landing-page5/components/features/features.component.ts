@@ -8,8 +8,8 @@ export class FeaturesComponent implements OnInit {
 
   titleSectionProp: any = {
     class: 'text-center',
-    title: 'FEATURES',
-    subTitle: 'Everything You Need to Build Powerful Analytic Apps'
+    //title: 'FEATURES',
+    subTitle: 'Benefits'
   };
 
   List1: any[] = [
