@@ -13,7 +13,7 @@ const topMenuBarItems = [
         title: 'Cloud Migration'
       },
       {
-        href: '/services/well-architected',
+        href: '/landing-page8',
         title: 'Well Architected'
       },
       {
@@ -279,7 +279,7 @@ const servicesMenu =  [
     title: 'Cloud Migration'
   },
   {
-    href: '/services/well-architected',
+    href: '/landing-page8',
     title: 'Well Architected'
   },
   {
