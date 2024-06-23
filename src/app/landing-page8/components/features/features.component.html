@@ -17,7 +17,7 @@
           <div *ngFor="let nav of navList" id="{{ nav.id }}" class="tab-pane fade  {{ nav.active !== undefined && nav.active ? 'show active' : '' }}">
             <h3 class="pb-3">{{ nav.sub_title }}</h3>
             <p>{{ nav.desc }}</p>
-            <!-- <app-check-list [lists]="nav.chkList"></app-check-list> -->
+            <app-check-list [lists]="nav.chkList"></app-check-list> 
           </div>
         </div>
       </div>

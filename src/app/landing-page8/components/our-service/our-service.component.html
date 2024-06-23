@@ -8,10 +8,14 @@
         <div class="{{ list.class }}">
           <div class="xamin-history row row-eq-height align-items-center wow fadeInUp ">
             <div class="col-sm-4 col-lg-2 col-md-2">
-              <img alt="" class="single_image-img attachment-full" height="360" width="550" src="{{ list.img }}">
+              <img alt=""
+                   class="single_image-img attachment-full"
+                   height="360"
+                   width="550"
+                   src="{{ list.img }}">
             </div>
             <div class="text-lg-center text-left col-sm-12 col-lg-2 col-md-3">
-              <h5 class="pt-3 pb-1 pt-lg-0 pb-lg-0">{{ list.year }}<br />30 min - 1 hour</h5>
+              <h5 class="pt-3 pb-1 pt-lg-0 pb-lg-0">{{ list.year }}<br />{{list.time}}</h5>
             </div>
             <div class="col-sm-12 col-lg-8 col-md-7">
               <p class="mb-0">{{ list.desc }}</p>

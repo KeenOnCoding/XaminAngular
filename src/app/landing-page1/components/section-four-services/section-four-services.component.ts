@@ -14,30 +14,36 @@ export class SectionFourServicesComponent implements OnInit {
 
   List: any[] = [
     {
-      title: 'Google Analytics',
-      desc: 'There are many variations of passages of Lorem Ipsum available, in',
-      image: './assets/images/fancybox/11-1.png',
-      bg_img: './assets/images/bg/11-bg.png',
+      title: 'DevOps',
+      subtitle: 'Many variations of passages fact that a reader will be distracted content of a page when looking at its layout.',
+      href: '/landing-page5'
     },
     {
-      title: 'Marketing Tracking',
-      desc: 'There are many variations of passages of Lorem Ipsum available, in',
-      image: './assets/images/fancybox/11-2.png',
-      bg_img: './assets/images/bg/11-bg.png',
+      title: 'Cloud Migration',
+      subtitle: 'Contrary to popular established fact that a reader will be distracted by the readable content of a page when looking.',
+      href: '/landing-page4'
     },
     {
-      title: 'Services and Solutions',
-      desc: 'There are many variations of passages of Lorem Ipsum available, in',
-      image: './assets/images/fancybox/11-3.png',
-      bg_img: './assets/images/bg/11-bg.png',
+      title: 'Well-Architected',
+      subtitle: 'Many variations of passages fact that a reader will be distracted content of a page when looking at its layout.',
+      href: '/landing-page8'
     },
     {
-      title: 'Conversion Optimization',
-      desc: 'There are many variations of passages of Lorem Ipsum available, in',
-      image: './assets/images/fancybox/11-4.png',
-      bg_img: './assets/images/bg/11-bg.png',
+      title: 'FinOps',
+      subtitle: 'Many variations of passages fact that a reader will be distracted content of a page when looking at its layout.',
+      href: '/landing-page6'
+    },
+    {
+      title: 'DevSecOps',
+      subtitle: 'Contrary to popular established fact that a reader will be distracted by the readable content of a page when looking.',
+      href: '/landing-page7'
+    },
+    {
+      title: 'Landing Zone',
+      subtitle: 'Many variations of passages fact that a reader will be distracted content of a page when looking at its layout.',
+      href: '/landing-page7'
     }
-  ];
+  ]
   constructor() { }
 
   ngOnInit() {
