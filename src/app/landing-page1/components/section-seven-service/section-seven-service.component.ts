@@ -8,8 +8,8 @@ export class SectionSevenServiceComponent implements OnInit {
 
   titleSectionProp: any = {
     class: 'text-center',
-    title: 'OUR SERVICES',
-    subTitle: 'What Our Clients Say',
+    //title: 'OUR SERVICES',
+    //subTitle: 'What Our Clients Say',
   };
 
   List : any[] = [

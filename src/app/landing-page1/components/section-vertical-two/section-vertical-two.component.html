@@ -1,5 +1,43 @@
+<section class="iq-feture-bg">
+  <div class="container text-center">
+    <h2>How we do it</h2>
+    <div class="row align-items-center ">
+
+      <div class="col-md-6">
+
+        <app-title-section [titleSectionProp]="titleSectionProp"></app-title-section>
+      </div>
+      <div class="col-md-6">
+        <div class="xamin-feature-circle wow zoomIn postion-relative">
+          <div class="xamin-img">
+            <ul class="list-inline mb-0">
+              <li *ngFor="let list of List" class="list-inline-item">
+                <div class="feature-info">
+                  <div class="feature-img">
+                    <img class="img-fluid client-img" src="{{ list.image }}" alt="image0">
+                  </div>
+                  <h6>{{ list.title }}</h6>
+                </div>
+              </li>
+            </ul>
+            <div class="dot-circle">
+              <div class="effect-circle"></div>
+            </div>
+            <div class="main-circle">
+              <div class="circle-bg">
+                <img src="./assets/images/fancybox/6-9.png" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- How We Works -->
-<section id="how-it-works" class="iq-bg-over">
+<!--<section id="how-it-works" class="iq-bg-over">
     <div class="container">
       <div class="row iq-how-it-works">
         <div class="col-lg-5 col-md-12 mb-0 fadeInUp wow column align-items-center">
@@ -13,6 +51,5 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
   <!-- How We Works End -->
-  
