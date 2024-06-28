@@ -24,59 +24,59 @@ const topMenuBarItems = [
         href: '/landing-page7',
         title: 'DevSecOps'
       },
-      {
-        href: '/services/data-visualization-services',
-        title: 'Data Visualization'
-      },
-      {
-        href: '/services/data-management',
-        title: 'Data Management'
-      },
-      {
-        href: '/services/artificial-intelligence',
-        title: 'Artificial Intelligence'
-      }
+      //{
+      //  href: '/services/data-visualization-services',
+      //  title: 'Data Visualization'
+      //},
+      //{
+      //  href: '/services/data-management',
+      //  title: 'Data Management'
+      //},
+      //{
+      //  href: '/services/artificial-intelligence',
+      //  title: 'Artificial Intelligence'
+      //}
     ]
   },
 
-  {
-    href: '/our-cases/portfolio-2-columns',
-    title: 'Our Cases ',
-    submenu: [
-      {
-            href: '/landing-page4',
-            title: 'User Anaytics'
-          },
-          {
-            href: '/landing-page5',
-            title: 'Business Intelligence'
-          },
-          {
-            href: '/landing-page6',
-            title: 'Predective Analytics'
-          },
-          {
-            href: '/landing-page7',
-            title: 'Sentiment Analysis'
-          },
-          {
-            href: '/landing-page8',
-            title: 'User Behaviour Analysis'
-          },
-          {
-            href: '/landing-page9',
-            title: 'Data Scientist Profile'
-          },
-          {
-            href: '/landing-page10',
-            title: 'Data Visualization Service'
-          },
-          {
-            href: '/landing-page11',
-            title: 'Analytics In Marketing'
-          }
-    ]
-  },
+  //{
+  //  href: '/our-cases/portfolio-2-columns',
+  //  title: 'Our Cases ',
+  //  submenu: [
+  //    {
+  //          href: '/landing-page4',
+  //          title: 'User Anaytics'
+  //        },
+  //        {
+  //          href: '/landing-page5',
+  //          title: 'Business Intelligence'
+  //        },
+  //        {
+  //          href: '/landing-page6',
+  //          title: 'Predective Analytics'
+  //        },
+  //        {
+  //          href: '/landing-page7',
+  //          title: 'Sentiment Analysis'
+  //        },
+  //        {
+  //          href: '/landing-page8',
+  //          title: 'User Behaviour Analysis'
+  //        },
+  //        {
+  //          href: '/landing-page9',
+  //          title: 'Data Scientist Profile'
+  //        },
+  //        {
+  //          href: '/landing-page10',
+  //          title: 'Data Visualization Service'
+  //        },
+  //        {
+  //          href: '/landing-page11',
+  //          title: 'Analytics In Marketing'
+  //        }
+  //  ]
+  //},
   {
     href: '/our-team',
     title: 'Team'
@@ -290,18 +290,18 @@ const servicesMenu =  [
     href: '/services/business-intelligence',
     title: 'Business Intelligence'
   },
-  {
-    href: '/services/data-visualization-services',
-    title: 'Data Visualization'
-  },
-  {
-    href: '/services/data-management',
-    title: 'Data Management'
-  },
-  {
-    href: '/services/artificial-intelligence',
-    title: 'Artificial Intelligence'
-  }
+  //{
+  //  href: '/services/data-visualization-services',
+  //  title: 'Data Visualization'
+  //},
+  //{
+  //  href: '/services/data-management',
+  //  title: 'Data Management'
+  //},
+  //{
+  //  href: '/services/artificial-intelligence',
+  //  title: 'Artificial Intelligence'
+  //}
 ];
 
 export { servicesMenu, topMenuBarItems };
