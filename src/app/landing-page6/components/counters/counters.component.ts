@@ -5,7 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './counters.component.html'
 })
 export class CountersComponent implements OnInit {
-
+  titleSectionProp2: any = {
+    //title: 'About US',
+    subTitle: 'Increase the Value of FinOps',
+    description: 'Cutting-edge AI-powered platform and well-architected FinOps services, you can reduce cloud costs by up to 75% and accelerate business innovation. Don’t let cloud costs weigh you down – elevate your cloud cost management with FinOps services today!',
+    class: 'text-left'
+  };
 
   List: any[] = [
     {

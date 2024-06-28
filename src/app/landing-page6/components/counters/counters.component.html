@@ -1,18 +1,14 @@
-<section class="pt-0 iq-pb-70">
-    <div class="container">
-        <div class="row">
-            <div *ngFor="let list of List" class="col-lg-3 col-md-3 col-sm-6">
-                <div class="iq-timer style3 text-left">
-                    <div class="iq-img">
-                        <img src="{{ list.image }}" alt="fancybox">
-                    </div>
-                    <div class="timer-details">
-                        <span class="timer dark-text" [attr.data-to]="list.number" data-speed="5000">{{ list.number }}</span>
-                        <i class="fa fa-plus" aria-hidden="true"></i>
-                        <p class="dark-text">{{ list.title }}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+<section class="pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6  wow fadeInUp ">
+        <img src="./assets/images/about-us/13.png" c
+             lass="attachment-full" alt=""
+             sizes="100vw">
+      </div>
+      <div class="col-lg-6 wow fadeInUp align-items-center">
+        <app-title-section [titleSectionProp]="titleSectionProp2"></app-title-section>
+      </div>
     </div>
+  </div>
 </section>
