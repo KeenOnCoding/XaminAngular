@@ -265,6 +265,9 @@
   .xamin-history h4 { font-size: 1.3rem; margin-top: 5px; }
   .container-visualization ul.iq-client.column-5 li { width: 33.33%; float: left; }
   .iq-get-data-left img { display: none; }
+  .iq-hide-image-data-left img {
+    display: none;
+  }
   .iq-get-data-right img {position: relative;left: -1%;}
 }
 @media(max-width:979px) {
