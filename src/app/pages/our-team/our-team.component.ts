@@ -22,8 +22,8 @@ export class OurTeamComponent implements OnInit {
 
   titleSectionProp: any = {
     class: 'text-center',
-    title: 'TEAM',
-    subTitle: 'Management Team',
+    //title: 'TEAM',
+    subTitle: 'Meet Our Team',
     description:''
   };
 

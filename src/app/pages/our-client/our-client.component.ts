@@ -22,7 +22,7 @@ export class OurClientComponent implements OnInit {
 
   titleSectionProp: any = {
     class: 'text-center',
-    title: 'OUR CLIENTS',
+    //title: 'OUR CLIENTS',
     subTitle: 'All Our Great Clients',
     description:''
   };

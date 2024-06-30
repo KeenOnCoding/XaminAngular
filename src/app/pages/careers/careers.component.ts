@@ -18,6 +18,12 @@ export class CareersComponent implements OnInit {
     title:"Careers",
     img:"04.png"
   };
+  titleSectionProp: any = {
+    class: 'text-center',
+    //title: 'OUR CLIENTS',
+    subTitle: 'Become a Part Of Us',
+    description: ''
+  };
 
   List : any[] =[
     {
