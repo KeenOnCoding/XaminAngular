@@ -1,11 +1,18 @@
-<section class="iq-bg-over">
-  <div class="container">
-    <div class="row  wow fadeInUp">
+<section class="iq-bg-over" style="background-color:transparent;">
+  <div class="container" style="background-color:white;">
+    <div class="row  wow fadeInUp" >
       <div class="col-md-4">
-        <div class="custom-tab">
-          <ul class="nav nav-pills text-center flex-column mb-5 mb-md-0" id="pills-tab" role="tablist" aria-orientation="vertical">
-            <li *ngFor="let nav of navList" class="nav-item w-inherit ">
-              <a class="nav-link w-100" data-toggle="pill" href="{{ '#' + nav.id }}" role="tab" [attr.aria-selected]=" nav.active !== undefined ? true : false ">
+        <div class="custom-tab" >
+          <ul class="nav nav-pills text-center flex-column mb-5 mb-md-0"
+
+              id="pills-tab" role="tablist" aria-orientation="vertical">
+            <li *ngFor="let nav of navList"
+                class="nav-item w-inherit "
+
+                >
+              <a class="nav-link w-100"
+                 
+                 data-toggle="pill" href="{{ '#' + nav.id }}" role="tab" [attr.aria-selected]=" nav.active !== undefined ? true : false ">
                 <h5 class="tab-title">{{ nav.title }}</h5>
               </a>
             </li>
