@@ -78,10 +78,10 @@
             //"sslKey": "localhost-key.pem",
             //"sslCert": "localhost.pem",
             //"ssl": true,
-            "port": 4200,
-            "host": "192.168.0.102",
-            "disableHostCheck": true,
-            "browserTarget": "client:build"
+            //"port": 4200,
+            //"host": "192.168.0.102",
+            //"disableHostCheck": true,
+            //"browserTarget": "client:build"
           },
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
