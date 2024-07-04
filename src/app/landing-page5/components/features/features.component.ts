@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 export class FeaturesComponent implements OnInit {
 
   titleSectionProp: any = {
-    class: 'text-center',
+    class: 'text-center text-white',
     //title: 'FEATURES',
     subTitle: 'Benefits'
   };
@@ -16,7 +16,7 @@ export class FeaturesComponent implements OnInit {
     {
       title: 'Acceleration',
       subtitle: 'DevOps as a Service provides one seamless workflow for software delivery, eliminating toil, accelerating time-to-market, and reducing waste to improve product quality',
-      image: './assets/images/services/01.png'
+      image: './assets/images/services/acceleration.png'
     },
     {
       title: 'Security',

@@ -23,6 +23,18 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
 
+.bg-dark {
+  background: #292D3F;
+}
+.border-round-full {
+  border-radius: 60px 60px 60px 60px;
+}
+.border-round-bottom {
+  border-radius: 0px 0px 60px 60px;
+}
+.text-white {
+  color: #ffffff;
+}
 /*---------------------------------------------------------------------
                               General
 -----------------------------------------------------------------------*/
@@ -1673,9 +1685,19 @@ background: rgb(255, 255, 255); background: linear-gradient(180deg, rgba(239, 24
 .vc_custom_1569913332442 {  /* background-image: url('../images/2019/09/01-2.jpg') !important;*/
 background: rgb(255, 255, 255); background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(239, 241, 254, 1) 100%); background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; }
 .iq-breadcrumb-one h2 { color: #313e5b !important; }
-.iq-bg-over { background: #eff1fe !important; }
-.iq-over-dark-90 { background: #eff1fe !important; }
-.iq-over-image-bg {background: url(../images/footerbg-1.png);}
+
+iq-bg-over { background: #eff1fe !important; }
+
+/*.iq-over-dark-90 { background: #eff1fe !important; }*/
+
+/*.iq-bg-over {
+  background: #252e44 !important;
+}*/
+.iq-over-dark-90 {
+  background: #252e44 !important;
+}
+
+.iq-over-image-bg { background: url(../images/footerbg-1.png); }
 .iq-feture-bg{background-image: url(../images/feature.png); background-position: 0 0;  background-repeat: no-repeat !important; padding-top:200px;}
 .iq-pt-100 { padding-top: 100px; }
 .iq-pb-100 { padding-bottom: 100px; }
