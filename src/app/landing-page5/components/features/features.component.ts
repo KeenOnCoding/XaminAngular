@@ -21,12 +21,12 @@ export class FeaturesComponent implements OnInit {
     {
       title: 'Security',
       subtitle: 'DevSecOps increases network activity visibility, transparency, and overall security at every stage of the SDLC to deliver robust applications and services at high velocity.',
-      image: './assets/images/services/02.png'
+      image: './assets/images/services/security.png'
     },
     {
       title: 'Performance',
       subtitle: 'DevOps improves performance and increases customer satisfaction, implementing automated monitoring of customer feedback, continuous analytics, and frequent updates.',
-      image: './assets/images/services/03.png'
+      image: './assets/images/services/performance.png'
     }
   ];
 
@@ -34,17 +34,17 @@ export class FeaturesComponent implements OnInit {
     {
       title: 'Efficiency',
       subtitle: 'Agile transformation delivers 30% gains in efficiency, customer satisfaction, employee engagement, and operational productivity, eliminating manual processes',
-      image: './assets/images/services/04.png'
+      image: './assets/images/services/efficacy.png'
     },
     {
       title: 'Reliability',
       subtitle: 'SRE services benefit any business, ensuring automation, reliability, and scaling during peak times and providing a seamless and consistent development environment.',
-      image: './assets/images/services/05.png'
+      image: './assets/images/services/validation.png'
     },
     {
       title: 'Cost Reduction',
       subtitle: 'Best DevOps tools and cloud services save maintenance costs and eliminate unnecessary capital expenditures to help businesses get a much faster investment return.',
-      image: './assets/images/services/06.png'
+      image: './assets/images/services/cost_reduction.png'
     }
   ]
   constructor() { }
