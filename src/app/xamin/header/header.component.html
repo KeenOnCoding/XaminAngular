@@ -77,6 +77,9 @@
   .bg-dark {
     background: #292D3F;
   }
+  .bg-dark-blue-header {
+    background: #252e44 !important;
+  }
 
   .border-round {
     border-radius: 0px 0px 60px 60px;
@@ -115,7 +118,7 @@
       </div>
     </div>
   </div>-->
-  <div class="bg-dark border-round container-fluid main-header">
+  <div class="bg-dark-blue-header border-round container-fluid main-header">
     <div class="row">
       <div class="col-sm-12">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -152,7 +155,7 @@
                     <li *ngFor="let child of option.submenu"
                         class="menu-item {{ child.isCurrent !== undefined && child.isCurrent ? 'current-menu-item' : '' }}">
                       <a style="color: white;"
-                         class="bg-dark  isubmenu"
+                         class="bg-dark-blue-header isubmenu"
                          [routerLink]="child.href" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">{{ child.title }}</a><i *ngIf="child.submenu" class="fa fa-angle-down toggledrop" aria-hidden="true"></i>
                       <ul class="sub-menu" *ngIf="child.submenu">
                         <li class="menu-item" *ngFor="let subchild of child.submenu">
