@@ -35,6 +35,14 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 .text-white {
   color: #ffffff;
 }
+.frame {
+  border: solid;
+  border-color: white;
+}
+.frame-dark-blue {
+  border: solid;
+  border-color: #252e44;
+}
 /*---------------------------------------------------------------------
                               General
 -----------------------------------------------------------------------*/

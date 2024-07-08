@@ -69,7 +69,7 @@
     letter-spacing: 0.05em;
   }
 </style>
-<section class="bg-dark border-round">
+<section class="bg-dark-blue border-round">
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12  wow fadeInUp  ">
@@ -84,10 +84,23 @@
     </div>
     <div class="row">
       <div class="col-md-12  wow fadeInUp  ">
-        <div class="  wow fadeInUp owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-items="6" data-items-laptop="4" data-items-tab="3" data-items-mobile="2" data-items-mobile-sm="1" data-autoplay="true" data-loop="true" data-margin="30">
-          <div *ngFor="let lists of List" class="item">
+        <div class="  wow fadeInUp owl-carousel owl-loaded owl-drag"
+             data-dots="false"
+             data-nav="false"
+             data-items="6"
+             data-items-laptop="4"
+             data-items-tab="3"
+             data-items-mobile="2"
+             data-items-mobile-sm="1"
+             data-autoplay="true"
+             data-loop="true"
+             data-margin="30">
+          <div *ngFor="let lists of List"
+               class="item">
             <div class="clients-box">
-              <img class="img-fluid client-img" src="./assets/images/partners/{{ lists.img }}" alt="image0">
+              <img class="img-fluid client-img"
+                   src="./assets/images/partners/{{ lists.img }}"
+                   alt="image0">
             </div>
           </div>
         </div>

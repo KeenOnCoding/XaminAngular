@@ -1,3 +1,41 @@
+<style>
+  .border {
+    /* padding: 15px;*/
+    border: solid #252e44 !important;
+  }
+  .border-round-full {
+    border-radius: 60px 60px 60px 60px !important;
+  }
+</style>
+<section class="pt-0 iq-pb-40">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <app-title-section [titleSectionProp]="titleSectionProp"></app-title-section>
+      </div>
+    </div>
+    <div class="row">
+      <div *ngFor="let list of List" class="col-lg-6 col-md-6 col-sm-12">
+        <div class="border
+             border-round-full
+             servicebox-datascience-black
+             wow fadeInUp
+             text-left">
+          <div class="service-box-detail">
+            <h1 class="data-title">{{ list.title }}</h1>
+            <p>{{ list.subtitle }}</p>
+            <a class="button button-icon" href="{{list.href}}">
+              <span class="btn-effect"> Read More</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 <!--<app-services [navList]="navList" [titleSectionProp]="titleSectionProp"></app-services>-->
 <!--<section class="pt-0 iq-pb-30">
   <div class="container">
@@ -76,27 +114,6 @@
     </div>
   </div>
 </section>-->
-<section class="pt-0 iq-pb-40">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <app-title-section [titleSectionProp]="titleSectionProp"></app-title-section>
-      </div>
-    </div>
-    <div class="row">
-      <div *ngFor="let list of List" class="col-lg-4 col-md-4 col-sm-12">
-        <div class="servicebox-datascience-black wow fadeInUp text-left">
-          <div class="service-box-detail">
-            <h3 class="data-title">{{ list.title }}</h3>
-            <p>{{ list.subtitle }}</p>
-            <a class="link-btn" href="{{list.href}}">
-              <span class="btn-effect"> Readmore<i class="ion-ios-arrow-right ml-2"></i></span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 

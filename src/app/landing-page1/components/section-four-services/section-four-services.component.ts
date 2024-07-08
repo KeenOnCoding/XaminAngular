@@ -16,17 +16,20 @@ export class SectionFourServicesComponent implements OnInit {
     {
       title: 'DevOps',
       subtitle: 'Many variations of passages fact that a reader will be distracted content of a page when looking at its layout.',
-      href: '/devops'
+      href: '/devops',
+      delay: '0.6s',
     },
     {
       title: 'Cloud Migration',
       subtitle: 'Contrary to popular established fact that a reader will be distracted by the readable content of a page when looking.',
-      href: '/cloud-migration'
+      href: '/cloud-migration',
+      delay: '1.2s',
     },
     {
       title: 'Well-Architected',
       subtitle: 'Many variations of passages fact that a reader will be distracted content of a page when looking at its layout.',
-      href: '/well-architected'
+      href: '/well-architected',
+      delay: '1.8s',
     },
     {
       title: 'FinOps',
