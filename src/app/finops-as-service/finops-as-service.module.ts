@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {  XaminModule } from "../xamin/xamin.module";
 import { RevolutionSlider6Module } from "./components/revolution-slider6/revolution-slider6.module"
-import { LandingPage6RoutingModule } from './landing-page6-routing.module';
+import { LandingPage6RoutingModule } from './finops-as-service-routing.module';
 import { IndexComponent } from './index/index.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { CaseStudiesComponent } from './components/case-studies/case-studies.component';

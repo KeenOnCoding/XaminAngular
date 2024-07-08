@@ -1,36 +1,36 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {  XaminModule } from "../xamin/xamin.module";
-import { RevolutionSlider5Module } from './components/revolution-slider5/revolution-slider5.module';
-import { LandingPage5RoutingModule } from './landing-page5-routing.module';
+import { RevolutionSlider4Module } from './components/revolution-slider4/revolution-slider4.module'
+import { LandingPage4RoutingModule } from './cloud-migration-routing.module';
 import { IndexComponent } from './index/index.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
-import { FeaturesComponent } from './components/features/features.component';
+import { AboutUs1Component } from './components/about-us1/about-us1.component';
 import { OurBlogComponent } from './components/our-blog/our-blog.component';
 import { OurClientComponent } from './components/our-client/our-client.component';
 import { OurCounterComponent } from './components/our-counter/our-counter.component';
-import { PartnerComponent } from './components/partner/partner.component';
-import { SolutionsComponent } from './components/solutions/solutions.component';
-import { TipsTrickComponent } from './components/tips-trick/tips-trick.component';
+import { OurPartnerComponent } from './components/our-partner/our-partner.component';
+import { OurServicesComponent } from './components/our-services/our-services.component';
+import { OurTestimonialComponent } from './components/our-testimonial/our-testimonial.component';
 
 
 @NgModule({
   declarations: [
     IndexComponent,
     AboutUsComponent,
-    FeaturesComponent,
+    AboutUs1Component,
     OurBlogComponent,
     OurClientComponent,
     OurCounterComponent,
-    PartnerComponent,
-    SolutionsComponent,
-    TipsTrickComponent
+    OurPartnerComponent,
+    OurServicesComponent,
+    OurTestimonialComponent
   ],
   imports: [
     CommonModule,
-    LandingPage5RoutingModule,
+    LandingPage4RoutingModule,
     XaminModule,
-    RevolutionSlider5Module
+    RevolutionSlider4Module
   ]
 })
-export class LandingPage5Module { }
+export class LandingPage4Module { }

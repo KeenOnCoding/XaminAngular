@@ -5,23 +5,23 @@ const topMenuBarItems = [
     title: 'Services ',
     submenu : [
       {
-        href: '/landing-page5',
+        href: '/devops',
         title: 'DevOps'
       },
       {
-        href: '/landing-page4',
+        href: '/cloud-migration',
         title: 'Cloud Migration'
       },
       {
-        href: '/landing-page8',
+        href: '/well-architected',
         title: 'Well Architected'
       },
       {
-        href: '/landing-page6',
+        href: '/finops-as-service',
         title: 'FinOps'
       },
       {
-        href: '/landing-page7',
+        href: '/devsecops-as-a-service',
         title: 'DevSecOps'
       },
       //{
@@ -279,7 +279,7 @@ const servicesMenu =  [
     title: 'Cloud Migration'
   },
   {
-    href: '/landing-page8',
+    href: '/well-architected',
     title: 'Well Architected'
   },
   {

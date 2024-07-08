@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {  XaminModule } from "../xamin/xamin.module";
 import { RevolutionSlider8Module } from './components/revolution-slider8/revolution-slider8.module';
-import { LandingPage8RoutingModule } from './landing-page8-routing.module';
+import { LandingPage8RoutingModule } from './well-architected-routing.module';
 import { IndexComponent } from './index/index.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { HowWeWorkComponent } from './components/how-we-work/how-we-work.component';

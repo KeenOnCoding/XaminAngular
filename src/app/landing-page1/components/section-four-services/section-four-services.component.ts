@@ -16,32 +16,32 @@ export class SectionFourServicesComponent implements OnInit {
     {
       title: 'DevOps',
       subtitle: 'Many variations of passages fact that a reader will be distracted content of a page when looking at its layout.',
-      href: '/landing-page5'
+      href: '/devops'
     },
     {
       title: 'Cloud Migration',
       subtitle: 'Contrary to popular established fact that a reader will be distracted by the readable content of a page when looking.',
-      href: '/landing-page4'
+      href: '/cloud-migration'
     },
     {
       title: 'Well-Architected',
       subtitle: 'Many variations of passages fact that a reader will be distracted content of a page when looking at its layout.',
-      href: '/landing-page8'
+      href: '/well-architected'
     },
     {
       title: 'FinOps',
       subtitle: 'Many variations of passages fact that a reader will be distracted content of a page when looking at its layout.',
-      href: '/landing-page6'
+      href: '/finops-as-a-service'
     },
     {
       title: 'DevSecOps',
       subtitle: 'Contrary to popular established fact that a reader will be distracted by the readable content of a page when looking.',
-      href: '/landing-page7'
+      href: '/devsecops-as-a-service'
     },
     {
       title: 'Landing Zone',
       subtitle: 'Many variations of passages fact that a reader will be distracted content of a page when looking at its layout.',
-      href: '/landing-page7'
+      href: '/'
     }
   ]
   constructor() { }
