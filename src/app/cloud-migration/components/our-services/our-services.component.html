@@ -1,8 +1,47 @@
+<style>
+  .border-round-full {
+    border-radius: 60px 60px 60px 60px !important;
+  }
+</style>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <app-title-section [titleSectionProp]="titleSectionProp"></app-title-section>
+      </div>
+      <div *ngFor="let list of List" class="col-sm-12 mb-5">
+        <div class="{{ list.class }} border-round-full">
+          <div class="bg-dark-blue
+               border-round-full
+               xamin-history
+               row
+               row-eq-height
+               align-items-center
+               wow fadeInUp ">
+            <div class="col-sm-4 col-lg-2 col-md-2">
+              <img alt=""
+                   class="single_image-img attachment-full"
+                   height="360"
+                   width="550"
+                   src="{{ list.img }}">
+            </div>
+            <div class="py-4 text-white col-sm-12 col-lg-9 col-md-7">
+              <h2 class="text-white">{{list.title}}</h2>
+
+              <p class="mt-2">{{ list.desc }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!--<app-services [navList]="navList" [titleSectionProp]="titleSectionProp"></app-services>-->
 
 
 
-<section class="pt-0">
+<!--<section class="pt-0">
   <div class="container">
     <div class="row ">
       <div class="col-md-12">
@@ -31,4 +70,4 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
