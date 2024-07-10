@@ -1,4 +1,30 @@
-<section class="iq-bg-over">
+<style>
+  .iq-bg-over {
+    background: #252e44 !important;
+  }
+
+  .xamin-analytics .analytics-icon {
+    border: 0px #252e44 !important;
+    width: 170px;
+    height: 170px;
+    border-radius: 90px;
+    padding: 10px;
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+
+    .xamin-analytics .analytics-icon img,
+    .xamin-analytics .analytics-icon i {
+      box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06);
+      display: inline-block;
+      width: auto;
+      height: auto;
+      line-height: 90px;
+      border-radius: 0;
+      background: #252e44;
+    }
+</style>
+<section class="iq-bg-over border-round-full">
   <div class="container">
     <div class="row ">
       <div class="col-md-12">
@@ -7,13 +33,14 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-        <div *ngFor="let list of List1" class="xamin-analytics wow fadeInUp  text-left">
+        <div *ngFor="let list of List1"
+             class="xamin-analytics wow fadeInUp  text-left">
           <div class="analytics-icon">
             <img src="{{ list.image }}" alt="fancybox">
           </div>
           <div class="analytics-detail">
-            <h4 class="mb-1">{{ list.title }}</h4>
-            <p class="mb-0">{{ list.subtitle }}</p>
+            <h4 class="text-white mb-1">{{ list.title }}</h4>
+            <p class="text-white mb-0">{{ list.subtitle }}</p>
           </div>
         </div>
       </div>
@@ -23,14 +50,15 @@
             <img src="{{ list.image }}" alt="fancybox">
           </div>
           <div class="analytics-detail">
-            <h4 class="mb-1">{{ list.title }}</h4>
-            <p class="mb-0">{{ list.subtitle }}</p>
+            <h4 class="text-white mb-1">{{ list.title }}</h4>
+            <p class="text-white mb-0">{{ list.subtitle }}</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
 

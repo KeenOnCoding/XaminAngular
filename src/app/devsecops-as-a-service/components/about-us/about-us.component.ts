@@ -6,52 +6,46 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutUsComponent implements OnInit {
 
-  //checkList1: any[] = [
-  //  'Polarity: if the speaker express a positive or negative opinion,',
-  //  'Subject: the thing that is being talked about',
-  //  'Opinion holder: the person, or entity that expresses the opinion.'
-  //]
-
   titleSectionProp: any = {
-    class: 'text-center',
-    //title: 'FEATURES',
-    subTitle: 'DevSecOps Benefits'
+    class: 'text-center text-white',
+    // title: 'FEATURES',
+    subTitle: ' Benefits'
   };
 
   List1: any[] = [
     {
+      title: 'Recovery',
+      subtitle: 'Recovery is accelerated should a security incident occur',
+      image: './assets/images/services/scaliability.png'
+    },
+    {
       title: 'Supervision',
       subtitle: 'All security aspects of your delivery pipeline are supervised',
-      image: './assets/images/services/01.png'
+      image: './assets/images/services/acceleration.png'
     },
     {
-      title: 'Security',
+      title: 'Compliance',
       subtitle: 'Security, reliability, and compliance are incorporated into the SDLC',
-      image: './assets/images/services/02.png'
-    },
-    {
-      title: 'Automation',
-      subtitle: 'Automated testing technologies are incorporated into each software delivery stage',
-      image: './assets/images/services/03.png'
+      image: './assets/images/services/disaster-recovery.png'
     }
   ];
 
   List2: any[] = [
     {
-      title: 'Recovery',
-      subtitle: 'Recovery is accelerated should a security incident occur',
-      image: './assets/images/services/04.png'
+      title: 'Cost Optimization',
+      subtitle: 'Drastically reduce expenses by minimizing vulnerabilities in products, thereby averting security incidents',
+      image: './assets/images/services/cost_reduction.png'
     },
     {
-      title: 'Delivery',
+      title: 'Performance',
       subtitle: 'Software delivery speed is increased by addressing potential errors as early as possible',
-      image: './assets/images/services/05.png'
+      image: './assets/images/services/disaster-recovery.png'
     },
     {
-      title: 'Cost Reduction',
-      subtitle: 'Your company gains a competitive advantage and prevents unpredictable cost expentditures',
-      image: './assets/images/services/06.png'
-    }
+      title: 'Performance',
+      subtitle: 'Software delivery speed is increased by addressing potential errors as early as possible',
+      image: './assets/images/services/disaster-recovery.png'
+    },
   ]
 
   constructor() { }
