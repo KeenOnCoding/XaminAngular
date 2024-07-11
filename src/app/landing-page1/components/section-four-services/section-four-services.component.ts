@@ -34,17 +34,20 @@ export class SectionFourServicesComponent implements OnInit {
     {
       title: 'FinOps',
       subtitle: 'Many variations of passages fact that a reader will be distracted content of a page when looking at its layout.',
-      href: '/finops-as-a-service'
+      href: '/finops-as-a-service',
+      delay: '2.2s',
     },
     {
       title: 'DevSecOps',
       subtitle: 'Contrary to popular established fact that a reader will be distracted by the readable content of a page when looking.',
-      href: '/devsecops-as-a-service'
+      href: '/devsecops-as-a-service',
+      delay: '2.8s',
     },
     {
       title: 'Landing Zone',
       subtitle: 'Many variations of passages fact that a reader will be distracted content of a page when looking at its layout.',
-      href: '/'
+      href: '/',
+      delay: '3.2s',
     }
   ]
   constructor() { }

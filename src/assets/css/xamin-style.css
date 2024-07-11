@@ -1953,11 +1953,17 @@ img.floating-image-left{ top:31%; max-width: 127% !important;}
 .iq-data-about .wpb_single_image img {        max-width: 110%;    left: -20%;    position: relative;    top: -121px;}
 .iq-data-about .iq-objects.style-one.left {        top: -16%;    left: -228px;}
 
-.servicebox-datascience-black {
+/*---------------------------------------------------------------------
+ servicebox-datascience-black
+-----------------------------------------------------------------------*/
+  .servicebox-datascience-black {
   position: relative;
   overflow: hidden;
   padding: 30px;
-  background: #f7f8fe;
+
+  background: #292D3F;
+  color: #ffffff;
+
   z-index: 0;
   transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -1971,10 +1977,7 @@ img.floating-image-left{ top:31%; max-width: 127% !important;}
   margin-bottom: 30px;
 }
 
-  .servicebox-datascience-black:hover {
-    background: #292D3F;
-    color: #ffffff;
-  }
+  
 
   .servicebox-datascience-black.data-title {
     transition: all 0.5s ease-in-out;
@@ -1985,15 +1988,7 @@ img.floating-image-left{ top:31%; max-width: 127% !important;}
     -webkit-transition: all 0.5s ease-in-out;
   }
 
-  .servicebox-datascience-black:hover .data-title, .servicebox-datascience:hover a.link-btn {
-    color: #ffffff;
-  }
-
-  .servicebox-datascience-black.data-title {
-    margin-bottom: 30px;
-  }
-
-.servicebox-datascience-blacke:hover:before {
+  /*.servicebox-datascience-blacke:hover:before {
   height: 250px;
   content: "";
   width: 250px;
@@ -2004,6 +1999,20 @@ img.floating-image-left{ top:31%; max-width: 127% !important;}
   left: -85px;
   top: -85px;
 }
+  .servicebox-datascience-black:hover .data-title, .servicebox-datascience:hover a.link-btn {
+    color: #ffffff;
+  }
+  .servicebox-datascience-black:hover {
+  background: #292D3F;
+  color: #ffffff;
+}
+*/
+
+  .servicebox-datascience-black.data-title {
+    margin-bottom: 30px;
+  }
+
+  /*------------------------------------------------------*/
 
 .iq-data-about .wpb_single_image img {
   max-width: 110%;
