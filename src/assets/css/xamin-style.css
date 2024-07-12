@@ -1956,13 +1956,12 @@ img.floating-image-left{ top:31%; max-width: 127% !important;}
 /*---------------------------------------------------------------------
  servicebox-datascience-black
 -----------------------------------------------------------------------*/
-  .servicebox-datascience-black {
+.servicebox-datascience-black {
   position: relative;
   overflow: hidden;
   padding: 30px;
-
-  background: #292D3F;
-  color: #ffffff;
+  background: #ffffff;
+  /*color: #ffffff;*/
 
   z-index: 0;
   transition: all 0.5s ease-in-out;
@@ -1988,7 +1987,7 @@ img.floating-image-left{ top:31%; max-width: 127% !important;}
     -webkit-transition: all 0.5s ease-in-out;
   }
 
-  /*.servicebox-datascience-blacke:hover:before {
+  .servicebox-datascience-blacke:hover:before {
   height: 250px;
   content: "";
   width: 250px;
@@ -2006,7 +2005,7 @@ img.floating-image-left{ top:31%; max-width: 127% !important;}
   background: #292D3F;
   color: #ffffff;
 }
-*/
+
 
   .servicebox-datascience-black.data-title {
     margin-bottom: 30px;

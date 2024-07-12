@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { XaminModule } from './xamin/xamin.module';
-import { LandingPage1Module } from './landing-page1/landing-page1.module';
+import { LandingPage1Module } from './home-page/home-page.module';
 import { LandingPage2Module } from './landing-page2/landing-page2.module';
 
 

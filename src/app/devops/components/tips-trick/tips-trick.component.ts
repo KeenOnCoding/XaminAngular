@@ -8,7 +8,7 @@ export class TipsTrickComponent implements OnInit {
 
 
   titleSectionProp: any = {
-    class: 'text-left text-white',
+    class: 'text-left',
     title: '',
     subTitle: 'Revolutionize Your Software Delivery with  DevOps',
     description: 'We provide a comprehensive suite of DevOps services from start to finish, enabling you to improve efficiency, automate workflows, eliminate human errors during development and operations processes, and accelerate your time-to-market. Our top Cloud experts will create well- designed CI/CD pipelines for your business using the best DevOps solutions, including Kubernetes, Jenkins, Terraform, Docker, and more.'

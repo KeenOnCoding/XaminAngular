@@ -6,7 +6,7 @@ import { OurClientComponent } from './pages/our-client/our-client.component';
 import { CareersComponent } from './pages/careers/careers.component';
 
 const routes: Routes = [
-  { path: 'landing-page1', loadChildren: () => import('./landing-page1/landing-page1.module').then(m => m.LandingPage1Module) },
+  { path: 'home-page', loadChildren: () => import('./home-page/home-page.module').then(m => m.LandingPage1Module) },
   { path: 'landing-page2', loadChildren: () => import('./landing-page2/landing-page2.module').then(m => m.LandingPage2Module) },
   { path: 'landing-page3', loadChildren: () => import('./landing-page3/landing-page3.module').then(m => m.LandingPage3Module) },
   { path: 'cloud-migration', loadChildren: () => import('./cloud-migration/cloud-migration.module').then(m => m.LandingPage4Module) },

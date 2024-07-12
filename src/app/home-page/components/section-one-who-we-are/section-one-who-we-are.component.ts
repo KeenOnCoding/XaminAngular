@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-section-five-customer',
-  templateUrl: './section-five-customer.component.html'
+  selector: 'section-one-who-we-are',
+  templateUrl: './section-one-who-we-are.component.html'
 })
 export class SectionFiveCustomerComponent implements OnInit {
   List: any[] = [

@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-revolution-slider1',
-  templateUrl: './revolution-slider1.component.html'
+  selector: 'app-main',
+  templateUrl: './app-main.component.html'
 })
 export class RevolutionSlider1Component implements OnInit {
   imgSrc = './assets/revslider/assets';

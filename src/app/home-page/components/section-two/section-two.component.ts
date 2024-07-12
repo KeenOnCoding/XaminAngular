@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-section-vertical-one',
-  templateUrl: './section-vertical-one.component.html'
+  selector: 'app-section-two',
+  templateUrl: './section-two.component.html'
 })
 
 export class SectionVerticalOneComponent implements OnInit {
