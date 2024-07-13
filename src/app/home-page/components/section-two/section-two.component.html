@@ -1,27 +1,53 @@
+<style>
+  .border {
+    border: solid !important;
+    border-color: black !important;
+  }
 
-<section class="position-relative">
-  <div class="container">
+  .service-box-userbehavior {
+    position: relative;
+    padding: 40px 60px;
+    margin-top: 0px;
+  }
+  .service-box-userbeh {
+    position: relative;
+    padding: 20px 60px;
+    margin-bottom: 5%;
+    margin-top:0px;
+  }
+
+
+</style>
+<section class="position-relative ">
+  <div class="container border border-round-full bg-dark-blue">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-12" style="padding-top: 5%; padding-left: 5%; padding-right: 5%; ">
+        <h2 class="text-center text-white">Who We Are</h2>
         <app-title-section [titleSectionProp]="titleSectionProp"></app-title-section>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-4 col-md-6">
-        <div class="servicebox-userbehavior wow fadeInUp">
-          <img src="./assets/images/services/aws-partnership-min.png" alt="fancybox">
+    <div class="row service-box-userbehavior">
+      <div class="col-lg-4 col-md-6 ">
+        <!--<div class="servicebox-userbehavior wow fadeInUp">-->
+        <div class="wow fadeInUp">
+          <img src="./assets/images/services/aws-advanced.png" alt="fancybox">
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
-        <div class="servicebox-userbehavior wow fadeInUp text-left">
-          <img src="./assets/images/services/google_partner-min.png" alt="fancybox">
+        <div class="wow fadeInUp text-left">
+          <img src="./assets/images/services/google-cloud-partner.png" alt="fancybox">
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
-        <div class="servicebox-userbehavior wow fadeInUp text-left">
-          <img src="./assets/images/services/microsoft_partner-min.png" alt="fancybox">
+        <div class="wow fadeInUp text-left">
+          <img src="./assets/images/services/microsoft-partner.png" alt="fancybox">
         </div>
       </div>
+
+
+    </div>
+    <div class="row service-box-userbeh">
+
       <div class="col-lg-2 col-md-6">
         <div class=" wow fadeInUp text-center">
           <img src="./assets/images/services/Layer_1-1.svg" alt="fancybox">
@@ -52,6 +78,30 @@
           <img src="./assets/images/services/Layer_1-3.svg" alt="fancybox">
         </div>
       </div>
+
+    </div>
+    <div class="row service-box-userbeh">
+
+      <div class="col-lg-6 col-md-6" style="margin-top:15px; !important;">
+        <div class=" wow fadeInUp text-center">
+          <img src="./assets/images/services/linux-foundation-logo.png" alt="fancybox">
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class=" wow fadeInUp text-left">
+          <img src="./assets/images/services/kubernetes-certified.png" alt="fancybox">
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6">
+        <div class=" wow fadeInUp text-center">
+          <img src="./assets/images/services/finops-certified.png" alt="fancybox">
+        </div>
+      </div>
+
+
 
     </div>
   </div>
