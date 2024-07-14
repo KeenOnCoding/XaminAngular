@@ -35,6 +35,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { TitleSectionComponent } from './title-section/title-section.component';
 import { XaminCircleComponent } from './xamin-circle/xamin-circle.component';
 import { ServiceMenuComponent } from './service-menu/service-menu.component';
+import { XaminCircleWellArchComponent } from './xamin-circle-well-arch/xamin-circle-well-arch.component';
 
 @NgModule({
   declarations: [
@@ -71,6 +72,7 @@ import { ServiceMenuComponent } from './service-menu/service-menu.component';
       TestimonialsComponent,
       TitleSectionComponent,
       XaminCircleComponent,
+      XaminCircleWellArchComponent,
       ServiceMenuComponent
   ],
   imports: [
@@ -111,6 +113,7 @@ import { ServiceMenuComponent } from './service-menu/service-menu.component';
       TestimonialsComponent,
       TitleSectionComponent,
       XaminCircleComponent,
+      XaminCircleWellArchComponent,
       ServiceMenuComponent
   ]
 })

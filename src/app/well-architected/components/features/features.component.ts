@@ -8,6 +8,80 @@ export class FeaturesComponent implements OnInit {
 
   titleSectionProp: any = {
     class: 'text-center',
+    //title: 'Our Services',
+    subTitle: 'Core Pillars',
+  };
+
+  List: any[] = [
+    {
+      title: 'Security',
+      delay: '0.3s',
+      chkList: [
+        'Strong identity foundation',
+        'Enable traceability',
+        'Apply security at all layers',
+        'Automate security best practices',
+        'Protect data in transit and at rest.',
+      ]
+    },
+    {
+      title: 'Cloud Migration',
+      //subtitle: 'Contrary to popular established fact that a reader will be distracted by the readable content of a page when looking.',
+      //href: '/cloud-migration',
+      delay: '0.6s',
+      chkList: [
+        'Automatically recover from failure',
+        'Test recovery procedures',
+        'Scale horizontally',
+        'Stop guessing capacity',
+        'Manage change in automation.',
+      ]
+    },
+    {
+      title: 'Cost Optimization',
+      delay: '0.9s',
+      chkList: [
+        'Cloud financial management',
+        'Adopt a consumption model',
+        'Measure overall efficiency',
+        'Avoid heavy lifting',
+        'Analyze and attribute expenditure.']
+    },
+    {
+      title: 'Performance Efficiency',
+      delay: '1.2s',
+      chkList: [
+        'Consider advanced technologies',
+        'Go global in minutes',
+        'Use serverless architectures',
+        'Experiment more often',
+        'Consider mechanical sympathy.']
+    },
+    {
+      title: 'Operational Excellence',
+      delay: '1.5s',
+      chkList: [
+        'Perform operations as code',
+        'Make frequent reversible changes',
+        'Refine procedures frequently',
+        'Anticipate failure',
+        'Learn from all operational failures.']
+    },
+    {
+      title: 'Sustainability',
+      delay: '1.8s',
+      chkList: [
+        'Establish sustainability goals',
+        'Maximize utilization',
+        'Adopt new efficient offerings',
+        'Use managed services',
+        'Cloud downstream reduction']
+    }
+  ]
+
+  /*
+  titleSectionProp: any = {
+    class: 'text-center',
     title: 'our Services',
     subTitle: 'Explore Our Data Services'
   };
@@ -89,6 +163,7 @@ export class FeaturesComponent implements OnInit {
       'Reduce the downstream impact of your cloud workloads']
     }
   ];
+  */
 
   /*
   titleSectionProp: any = {

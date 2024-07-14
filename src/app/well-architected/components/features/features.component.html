@@ -1,4 +1,59 @@
-<section class="iq-bg-over">
+
+<style>
+  .border {
+    /* padding: 15px;*/
+    border: solid #252e44 !important;
+  }
+
+  .border-round-full {
+    border-radius: 60px 60px 60px 60px !important;
+  }
+  .font-poppins {
+    font-family:'Poppins';
+  }
+  .servicebox-datascience-well-arch-black {
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+    background: #292D3F;
+    /*color: #ffffff;*/
+    margin-bottom: 30px;
+  }
+</style>
+<section class="pt-0 iq-pb-40">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <app-title-section [titleSectionProp]="titleSectionProp"></app-title-section>
+      </div>
+    </div>
+    <div class="row">
+      <div *ngFor="let list of List"
+           class="col-lg-4
+                  col-md-4
+                  col-sm-12">
+        <div class="border
+             border-round-full
+             servicebox-datascience-well-arch-black
+
+             wow fadeInUp
+             text-left"
+             [attr.data-wow-delay]="list.delay">
+          <div style="margin-left: 4%; margin-bottom: 15px; ">
+            <h4 class="data-title text-white">{{ list.title }}</h4>
+            <p class="text-white">{{ list.subtitle }}</p>
+            <app-check-list class="text-white"
+                            [lists]="list.chkList"></app-check-list>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--<section class="iq-bg-over">
   <div class="container">
     <div class="row  wow fadeInUp">
       <div class="col-md-4">
@@ -17,27 +72,13 @@
           <div *ngFor="let nav of navList" id="{{ nav.id }}" class="tab-pane fade  {{ nav.active !== undefined && nav.active ? 'show active' : '' }}">
             <h3 class="pb-3">{{ nav.sub_title }}</h3>
             <p>{{ nav.desc }}</p>
-            <app-check-list [lists]="nav.chkList"></app-check-list> 
+            <app-check-list [lists]="nav.chkList"></app-check-list>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</section>-->
 <!--<section>
     <div class="container">
         <div class="row layer-fly-one ">
